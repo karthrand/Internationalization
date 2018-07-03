@@ -13,11 +13,11 @@
         android:src="@drawable/nav_icon" />
 
     <TextView
-        android:id="@+id/mail"
+        android:id="@+id/web"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="karthrand41@gmail.com"
+        android:text="@string/website"
         android:textColor="#FFF"
         android:textSize="14sp" />
 
@@ -25,8 +25,8 @@
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/mail"
-        android:text="Karthrand"
+        android:layout_above="@id/web"
+        android:text="@string/author"
         android:textColor="#FFF"
         android:textSize="14sp" />
 
